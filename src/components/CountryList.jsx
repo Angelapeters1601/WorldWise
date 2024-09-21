@@ -1,3 +1,5 @@
+import _ from "lodash";
+
 import styles from "./CountryList.module.css";
 import Spinner from "./Spinner";
 import CountryItem from "./CountryItem";
@@ -10,21 +12,7 @@ function CountryList({ cities, isLoading }) {
       <Message message="Add your first city by clicking on a city on the map " />
     );
 
-  //   const countries = cities.reduce((arr, city) => {
-  //     if (!arr.map((el) => el.country).includes(city.country))
-  //       return [...arr, { country: city.country, emoji: city.emoji }];
-  //     else return arr;
-  //   }, []);
-
-  const countries = [];
-
-  for (const city of cities) {
-    const exists = countries.find((el) => el.country === city.country);
-
-    if (!exists) {
-      countries.push({ country: city.country, emoji: city.emoji });
-    }
-  }
+  const countries = _.uniqBy(cities, "country");
 
   return (
     <ul className={styles.countryList}>
