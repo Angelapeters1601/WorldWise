@@ -1,7 +1,3 @@
-body {
-  font-family: "Twemoji Country Flags", "Helvetica", "Comic Sans", serif;
-}
-
 .mapContainer {
   flex: 1;
   height: 100%;
@@ -26,6 +22,8 @@ body {
 }
 
 :global(.leaflet-popup .leaflet-popup-content) {
+  /* flag emoji */
+  font-family: "Twemoji Country Flags", "Helvetica", "Comic Sans", serif;
   font-size: 1.5rem;
   display: flex;
   align-items: center;
