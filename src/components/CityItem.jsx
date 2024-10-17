@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useCities } from "../contexts/CitiesContext";
-import BackButton from "./BackButton";
 
 import styles from "./CityItem.module.css";
 
@@ -13,7 +12,7 @@ const formatDate = (date) =>
 
 function CityItem({ city }) {
   const { currentCity } = useCities();
-  console.log(city);
+  //   console.log(city);
   const { cityName, emoji, date, id, position } = city;
 
   return (

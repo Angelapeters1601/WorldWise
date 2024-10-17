@@ -16,7 +16,7 @@ function CitiesProvider({ children }) {
         const data = await res.json();
         setCities(data);
       } catch {
-        alert("There was an error");
+        alert("There was an error loading data...");
       } finally {
         setIsLoading(false);
       }
