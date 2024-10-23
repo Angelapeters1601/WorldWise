@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
       "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -37,51 +25,63 @@
       "id": "98443197"
     },
     {
-      "id": "5305",
-      "cityName": "Kubau",
+      "id": "73930385",
+      "cityName": "Lisboa",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      }
+    },
+    {
+      "id": "deb7",
+      "cityName": "Vila Real",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2024-10-19T06:48:52.107Z",
+      "notes": "",
+      "position": {
+        "lat": "41.343824581185714",
+        "lng": "-7.624511718750001"
+      }
+    },
+    {
+      "id": "3b5c",
+      "cityName": "Cortes de Aragon",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-10-19T10:33:20.880Z",
+      "notes": "",
+      "position": {
+        "lat": "40.96330795307353",
+        "lng": "-0.8569335937500001"
+      }
+    },
+    {
+      "id": "a10c",
+      "cityName": "Balsa de Ves",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-10-19T11:06:15.466Z",
+      "notes": "",
+      "position": {
+        "lat": "39.2492708462234",
+        "lng": "-1.2304687500000002"
+      }
+    },
+    {
+      "id": "b188",
+      "cityName": "Orhionmwon",
       "country": "Nigeria",
       "emoji": "🇳🇬",
-      "date": "2024-10-18T00:17:12.766Z",
+      "date": "2024-10-23T22:31:28.299Z",
       "notes": "",
       "position": {
-        "lat": "10.703791711680736",
-        "lng": "8.173828125000002"
-      }
-    },
-    {
-      "id": "4176",
-      "cityName": "Magaria",
-      "country": "Niger (the)",
-      "emoji": "🇳🇪",
-      "date": "2024-10-18T00:23:03.876Z",
-      "notes": "",
-      "position": {
-        "lat": "13.111580118251661",
-        "lng": "8.547363281250002"
-      }
-    },
-    {
-      "id": "df1f",
-      "cityName": "Lillehammer",
-      "country": "Norway",
-      "emoji": "🇳🇴",
-      "date": "2024-10-18T00:39:37.031Z",
-      "notes": "",
-      "position": {
-        "lat": "61.10078883158897",
-        "lng": "10.371093750000002"
-      }
-    },
-    {
-      "id": "d624",
-      "cityName": "Luchazes",
-      "country": "Angola",
-      "emoji": "🇦🇴",
-      "date": "2024-10-18T00:47:57.453Z",
-      "notes": "",
-      "position": {
-        "lat": "-13.068776734357694",
-        "lng": "18.105468750000004"
+        "lat": "6.402648405963896",
+        "lng": "6.1962890625"
       }
     }
   ]
