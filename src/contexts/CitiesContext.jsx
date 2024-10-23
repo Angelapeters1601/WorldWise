@@ -140,3 +140,4 @@ const useCities = () => {
 };
 
 export { CitiesProvider, useCities };
+//combined use reducer and contextAPI
