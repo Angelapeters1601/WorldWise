@@ -37,18 +37,6 @@
       }
     },
     {
-      "id": "deb7",
-      "cityName": "Vila Real",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2024-10-19T06:48:52.107Z",
-      "notes": "",
-      "position": {
-        "lat": "41.343824581185714",
-        "lng": "-7.624511718750001"
-      }
-    },
-    {
       "id": "3b5c",
       "cityName": "Cortes de Aragon",
       "country": "Spain",
